@@ -11,6 +11,7 @@
     line-height: 20px;
 }
 .style-1{
+    border-radius:unset;
     padding-left:16px;
     padding-right:16px;
     border:none;
@@ -20,6 +21,7 @@
     line-height:22px;
 }
 .style-2{
+    border-radius:unset;
     border:none;
     border-top:6px #fffb3b solid;
     border-bottom:6px #ffeb3b solid;
@@ -29,6 +31,7 @@
     line-height:10px;
 }
 .style-3{
+    border-radius:unset;
     border:1px #4caf50 solid;
     border-bottom:6px #4caf50 solid;
     background:#e7ffe7;
