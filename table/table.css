@@ -1,0 +1,32 @@
+#layout{
+   width:600px;
+   margin:auto; 
+}
+.common{
+    width:100%;
+    border-collapse: collapse;
+    border:thin solid #ccc;
+    margin-top: 30px;
+    
+}
+.common tr{
+    border-bottom:1px solid #ddd;
+}
+.common th{
+    padding:8px 8px;
+    text-align:left;
+    font-weight: bold;
+}
+.common td{
+    padding:8px 8px;
+}
+.cellcolor:nth-child(even){
+    background-color:#f1f1f1;
+}
+#table1 .cellcolor:first-child{
+    color:#fff;
+    background-color: #4CAF50;
+}
+#table2{
+    border:none;
+}
