@@ -1,0 +1,59 @@
+div{
+    margin-top:30px;
+}
+.tri-0{
+    width:0px;
+    height:0px;
+    border-top:30px solid red;
+    border-bottom:30px solid green;
+    border-left:30px solid yellow;
+    border-right:30px solid blueviolet;
+}
+.tri-1{
+    width:0px;
+    height:0px;
+    border-top:30px solid transparent;
+    border-bottom:30px solid transparent;
+    border-left:30px solid transparent;
+    border-right:30px solid blueviolet;
+}
+.tri-2{
+    width:0px;
+    height:0px;
+    border-top:30px solid transparent;
+    border-bottom:30px solid transparent;
+    border-left:30px solid yellow;
+    border-right:30px solid transparent;
+}
+.tri-3{
+    width:0px;
+    height:0px;
+    border-top:30px solid transparent;
+    border-bottom:30px solid green;
+    border-left:30px solid transparent;
+    border-right:30px solid transparent;
+}
+.tri-4{
+    width:0px;
+    height:0px;
+    border-top:30px solid red;
+    border-bottom:30px solid transparent;
+    border-left:30px solid transparent;
+    border-right:30px solid transparent;
+}
+.tri-5{
+    width:0px;
+    height:0px;
+    border-top:22px solid transparent;
+    border-bottom:22px solid yellow;
+    border-left:22px solid yellow;
+    border-right:22px solid transparent;
+}
+.tri-6{
+    width:0px;
+    height:0px;
+    border-top:22px solid transparent;
+    border-bottom:22px solid green;
+    border-left:22px solid transparent;
+    border-right:22px solid green;
+}
