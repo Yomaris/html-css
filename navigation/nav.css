@@ -1,0 +1,47 @@
+.layout{
+    width: 600px;
+    margin:0 auto;
+}
+.h-navbar{
+    position: relative;
+    list-style-type: none;
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)!important;
+}
+.h-navbar>li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    float: left;
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.h-navbar>li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 8px 16px;
+}
+.h-navbar>li>a:hover{
+    background-color: #ccc;
+}
+.h-navbar>li:hover .drop{
+    display: block;
+}
+.h-navbar .drop{
+    color: #000;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)!important;
+}
+.drop>a:hover{
+    background-color: #ccc;
+}
