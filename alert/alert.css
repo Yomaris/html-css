@@ -1,0 +1,33 @@
+.layout{
+    margin: 0 auto;
+    width: 600px;
+}
+.h-alert{
+    width: 600px;
+    margin-top: 30px;
+    border-radius: 1px;
+    padding: 1px 16px;
+}
+.h-alert h3{
+    margin-left: 10px;
+    font-size: 24px;
+    margin: 10px 0;
+}
+.congra{
+    background-color: aquamarine;
+}
+.noti{
+    background-color: bisque;
+}
+.oh{
+    background-color: blanchedalmond;
+}
+.alert{
+    background-color: azure;
+}
+.close{
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+}
