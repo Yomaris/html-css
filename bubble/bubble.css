@@ -1,0 +1,52 @@
+body{
+    pisition:relative;
+    
+  }
+  .bubble{
+    margin:30px;
+    width:200px;
+    height:100px;
+    border:1px solid #ccc;
+  }
+  .bubble-1:before{
+    content:"";
+    display: inline-block;
+    width:0px;
+    height:0px;
+    border-left:20px solid #ccc;
+    border-top:20px solid #ccc;
+    border-right:20px solid transparent;
+    border-bottom:20px solid transparent;
+    transform: rotateZ(45deg);
+    position:absolute;
+    top:11px;
+    left:50px;
+  }
+  .bubble-2:before{
+    content:"";
+    display: inline-block;
+    width:0px;
+    height:0px;
+    border-left:15px solid red;
+    border-top:15px solid red;
+    border-right:15px solid transparent;
+    border-bottom:15px solid transparent;
+    transform: rotateZ(90deg);
+    position:absolute;
+    top:px;
+    left:210px;
+  }
+  .bubble-3:before{
+    content:"";
+    display: inline-block;
+    width:20px;
+    height:20px;
+    border-left:1px solid #ccc;
+    border-top:1px solid #ccc;
+    transform: rotateZ(45deg);
+    background:#fff;
+    position:absolute;
+    top:283px;
+    left:50px;
+  }
+  
