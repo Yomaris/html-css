@@ -1,7 +1,16 @@
+html,body{
+    min-width: 1200px;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -13,9 +22,6 @@ h1,h2{
 .layout{
     width:1200px;
     margin:0 auto;
-}
-section{
-    margin-top: 50px;
 }
 section h2{
     padding-top: 100px;
@@ -43,6 +49,7 @@ ul{
     padding: 20px 40px;
     border-radius: 4px;
     opacity: 0.8;
+    margin-top: 100px;
 }
 .button:hover{
     opacity: 1;
