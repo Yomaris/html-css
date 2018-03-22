@@ -6,7 +6,7 @@ html,
     header {
         min-height: 600px;
         height: 100%;
-        background: url(https://cdn.pixabay.com/photo/2016/11/25/16/52/satellite-1858790_960_720.jpg)center center no-repeat;
+        background: url(backg/sa.jpg)center center no-repeat;
         background-size: cover;
         position: relative;
     }
@@ -251,7 +251,7 @@ html,
     }
     #contact {
         width: 100%;
-        background: url(https://cdn.pixabay.com/photo/2018/03/15/16/11/background-3228704_960_720.jpg) center center no-repeat;
+        background: url(backg/background.jpg) center center no-repeat;
         background-size: cover;
         color: #fff;
         padding-bottom: 100px;
